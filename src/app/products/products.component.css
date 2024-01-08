@@ -1,0 +1,53 @@
+.product-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.image-container {
+    flex: 0 0 70px;
+    height: 70px;
+    width: 70px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.details-container {
+    flex: 1;
+    display: flex; /* Display details in a row */
+    justify-content: space-between; /* Add space between details */
+    align-items: center; /* Align items vertically in the center */
+    margin: 0 20px;
+}
+
+.details {
+    flex: 1;
+}
+
+.options {
+    flex: 0 0 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn {
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+/* Apply styles to the button colors */
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: #212529;
+}
